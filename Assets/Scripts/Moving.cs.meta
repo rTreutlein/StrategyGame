@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 44a881b8b88cb234a8ff2ba8ad81a428
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - ui: {instanceID: 0}
+  - sprt_move: {fileID: 21300000, guid: c5c867e9976dc5d4a8803e01578752f5, type: 3}
+  - sprt_stop: {fileID: 21300000, guid: 4d2a4136ebef6f041b43fdca42412caa, type: 3}
+  - sprt_default: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  - tex_mov_cursor: {fileID: 2800000, guid: fd764f7be00997147aa0c45a7b64d125, type: 3}
+  - tex_def_cursor: {fileID: 2800000, guid: 5988a2020badc834c96521b52b6a08f5, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

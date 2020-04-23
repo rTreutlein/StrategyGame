@@ -1,0 +1,23 @@
+tree "Root"
+	parallel
+		mute
+			sequence
+				not AtkIs "Defending"
+				Defend 10
+		tree "Build"
+
+tree "Build"
+	fallback
+		sequence
+			not Has "Mine" 1
+			AiBuild "Mine"
+		sequence 
+			not Has "Truck" 1
+			AiBuild "Truck"
+		sequence
+			MoreTanks
+			AiBuild "Tank"
+		sequence
+			AiBuild "Mine"
+			AiBuild "Truck"
+			AiBuild "Engineer"

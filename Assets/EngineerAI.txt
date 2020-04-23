@@ -1,0 +1,53 @@
+tree "Root"
+	fallback
+		sequence
+			IsMoving
+			Defend 3
+		sequence
+			not HasTask
+			GetTask
+		sequence
+			TaskIs "Expand"
+			fallback
+				tree "Expand"
+				tree "GetInitialResources"
+				tree "GetUnits"
+
+tree "Expand"
+	fallback
+		sequence
+			HasMetal 1100
+			not AtDest
+			ReturnBorrowed
+			GoToDest
+		sequence
+			AtDest
+			parallel
+				Defend 5
+				fallback
+					sequence 
+						not Has "Mine" 1
+						AiBuild "Mine"
+					sequence
+						not Has "Truck" 1
+						AiBuild "Truck"
+					sequence
+						MoreTanks
+						AiBuild "Tank"
+					sequence 
+						not Has "Mine" 2
+						AiBuild "Mine"
+					sequence
+						not Has "Truck" 2
+						AiBuild "Truck"
+					AiBuild "Tank"
+
+tree "GetInitialResources"
+	sequence
+		not Has "Truck" 1
+		BorrowTruck
+
+tree "GetUnits"
+	sequence
+		NeedUnits
+		GetUnits

@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 0b020860032a1294e82f5a5d8a3c12a8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - sprt_Truck: {fileID: 21300000, guid: fdf81e4514a3ee343842aa1421113184, type: 3}
+  - sprt_Builder: {fileID: 21300000, guid: 7dfd68325eeac354d866d207e4d2744c, type: 3}
+  - sprt_Mine: {fileID: 21300000, guid: 0138ff996cf7410479c3dfffa5472ee1, type: 3}
+  - sprt_Tank: {fileID: 21300000, guid: 062eeb9d5e8ba8f45a9ddfea52518f82, type: 3}
+  - sprt_Arty: {fileID: 21300000, guid: e32b8056f5f2eb741bec42f791c7f1b5, type: 3}
+  - sprt_Tower: {fileID: 21300000, guid: b6795c96fef3b01439d1de6a75d33651, type: 3}
+  - sprt_default: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  - prefab_Truck: {fileID: 175459396160288335, guid: 9d8a9eef05ff8724088ada3170c199cd,
+      type: 3}
+  - prefab_Builder: {fileID: 4038191000797504322, guid: 4b837c35f6dee264783dd3a1000b6733,
+      type: 3}
+  - prefab_Mine: {fileID: 3034131556206646661, guid: 7ab526baf6760824c93cf6ebfe0360d5,
+      type: 3}
+  - prefab_Tank: {fileID: 2671101720524788507, guid: d19b8c55d823d5b4f95803cc8ac699cd,
+      type: 3}
+  - prefab_Arty: {instanceID: 0}
+  - prefab_Tower: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
